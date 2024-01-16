@@ -89,19 +89,13 @@ body {
   background-repeat: no-repeat;
   object-fit: cover;
   background-size: contain;
-  /* display: flex;
-flex-direction: column; */
   justify-content: center;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 
-.explore-section .explore {
-}
 
-.explore-section .explore .text-container {
-}
 
 .explore-section .explore .text-container h1 {
   padding-top: 106px;
@@ -123,6 +117,9 @@ flex-direction: column; */
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+  width: 643px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .input-container {
@@ -154,16 +151,13 @@ flex-direction: column; */
 }
 
 .input-container button {
-    background: #FF5400;
-    color: #FFFFFF;
-    cursor: pointer;
-
+  background: #ff5400;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 .input-container button span {
-   margin-right: 8px;
- 
-    
+  margin-right: 8px;
 }
 
 /* explore travel end here */
@@ -241,11 +235,6 @@ flex-direction: column; */
   margin-right: auto;
 }
 
-.choose-destination-section .choose-destination {
-}
-
-.choose-destination-section .choose-destination-text {
-}
 
 .choose-destination-section .choose-destination-text h1 {
   padding-top: 20px;
@@ -268,6 +257,9 @@ flex-direction: column; */
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+  width: 643px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .choose-destination-section .choose-destination-img {
@@ -359,12 +351,6 @@ flex-direction: column; */
   margin-right: auto;
 }
 
-.why-choose-us-section .why-choose-us {
-}
-
-.why-choose-us-section .why-choose-us .why-choose-us-top {
-}
-
 .why-choose-us-section .why-choose-us .why-choose-us-top h1 {
   color: #131318;
   text-align: center;
@@ -437,13 +423,6 @@ flex-direction: column; */
   .why-choose-us
   .why-choose-us-bottom
   .why-choose-us-bottom-div
-  img {
-}
-
-.why-choose-us-section
-  .why-choose-us
-  .why-choose-us-bottom
-  .why-choose-us-bottom-div
   h3 {
   color: #131318;
   font-family: Mulish;
@@ -470,17 +449,89 @@ flex-direction: column; */
 /* why choose us section end here */
 
 /* newsletter and save section start here */
-  .newsletter-save-section{
-    max-width: 1240px;
-    width: 85%;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.newsletter-save-section {
+  max-width: 1240px;
+  width: 85%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .newsletter-save-section .newsletter-save{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 10px;
-  }
+.newsletter-save-section .newsletter-save {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.newsletter-save-section .newsletter-save .newsletter-text {
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  padding: 20px;
+}
+
+.newsletter-save-section .newsletter-save .newsletter-text h3 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.newsletter-save-section .newsletter-save .newsletter-text p {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(19, 19, 24, 0.1);
+  padding-bottom: 30px;
+}
+
+.newsletter-save-section .newsletter-save .newsletter-text input {
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  width: 80%;
+  color: rgba(19, 19, 24, 0.3);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+  padding: 10px;
+  outline: 0;
+  border-color: transparent;
+}
+
+.newsletter-save-section .newsletter-save .newsletter-text button {
+  width: 80%;
+  border-radius: 8px;
+  background: #ff5400;
+  padding: 10px;
+  outline: 0;
+  border-color: transparent;
+}
+
+.save-box {
+  border-radius: 16px;
+  background: #ff5400;
+  padding: 10px;
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+  text-align: center;
+}
+
+.save-img-box .save-img {
+  position: relative;
+  
+}
 /* newsletter and save section end here */
