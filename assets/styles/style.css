@@ -125,13 +125,45 @@ flex-direction: column; */
   line-height: 26px;
 }
 
-.explore-section .explore .input-container {
+.input-container {
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 24px;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 24px;
 }
 
-.input-container .btn {
-  border-radius: 8px;
-  background: #ff5400;
-  display: inline-block;
+.input-container input,
+.input-container select,
+.input-container button {
+  width: 100%;
+  padding: 8px;
+  color: rgba(19, 19, 24, 0.5);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 16px;
+  outline: 0;
+  border-color: transparent;
+}
+
+.input-container button {
+    background: #FF5400;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.input-container button span {
+   margin-right: 8px;
+ 
+    
 }
 
 /* explore travel end here */
@@ -251,6 +283,37 @@ flex-direction: column; */
   border-radius: 16px;
 }
 
+.img-card {
+  position: relative;
+}
+
+.img-card-text h4 {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.img-card-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    0deg,
+    rgba(19, 19, 24, 0.2) 0%,
+    rgba(19, 19, 24, 0.2) 100%
+  );
+}
+
 .choose-destination-section .choose-destination .choose-destination-img .img-1 {
   grid-column: span 6;
   height: 300px;
@@ -300,7 +363,6 @@ flex-direction: column; */
 }
 
 .why-choose-us-section .why-choose-us .why-choose-us-top {
-    
 }
 
 .why-choose-us-section .why-choose-us .why-choose-us-top h1 {
@@ -358,7 +420,7 @@ flex-direction: column; */
   .why-choose-us
   .why-choose-us-bottom
   .why-choose-us-bottom-div-3 {
-  grid-column: 4/10;
+  grid-column: 3/9;
   border-radius: 16px;
   border: 1px solid rgba(233, 68, 68, 0.2);
   background: rgba(233, 68, 68, 0.05);
@@ -368,7 +430,7 @@ flex-direction: column; */
   .why-choose-us
   .why-choose-us-bottom
   .why-choose-us-bottom-div {
-    padding: 20px;
+  padding: 20px;
 }
 
 .why-choose-us-section
@@ -389,6 +451,7 @@ flex-direction: column; */
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  margin-top: 10px;
 }
 
 .why-choose-us-section
@@ -405,3 +468,19 @@ flex-direction: column; */
 }
 
 /* why choose us section end here */
+
+/* newsletter and save section start here */
+  .newsletter-save-section{
+    max-width: 1240px;
+    width: 85%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .newsletter-save-section .newsletter-save{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  }
+/* newsletter and save section end here */
