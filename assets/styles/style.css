@@ -8,6 +8,8 @@ body {
   font-family: 'Mulish', sans-serif;
 }
 
+/* navbar style start here */
+
 .header {
   background-color: #fff;
   margin-top: 20px;
@@ -66,3 +68,72 @@ body {
   color: #ff5400;
   font-weight: 800;
 }
+
+/* navbar style end here */
+
+
+/* explore travel start here */
+
+.explore-section{
+
+margin-top: 20px;
+max-width: 1240px;
+height: 500px;
+border-radius: 16px;
+background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100% ),url('../../assets/images/Group 13 (1) (1).png');
+background-repeat: no-repeat;
+object-fit: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.explore-section .explore{
+
+}
+
+.explore-section .explore .text-container{
+
+}
+
+.explore-section .explore .text-container h1{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.explore-section .explore .text-container p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.explore-section .explore .input-container{
+
+}
+
+
+
+.input-container .btn{
+    border-radius: 8px;
+    background: #FF5400;
+    display: inline;
+}
+
+
+
+
+
+/* explore travel end here */
+
+
