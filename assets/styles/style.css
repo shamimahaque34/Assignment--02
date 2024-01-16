@@ -718,6 +718,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
+  max-width: 769px;
 }
 
 .footer-bottom-p {
@@ -728,6 +729,7 @@ body {
   font-weight: 300;
   line-height: normal;
   padding-bottom: 50px;
+  max-width: 769px;
 }
 
 /* footer section end here */
