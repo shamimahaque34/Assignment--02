@@ -15,24 +15,30 @@ body {
   margin-top: 20px;
 }
 
+.icon{
+    display: none;
+}
+
 .header-section {
   max-width: 1240px;
   width: 85%;
   margin: 0 auto;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.nav-container {
-  min-height: 40px;
-  display: flex;
-  align-items: center;
-  width: 50%;
+.nav-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
+
+
 
 .nav-container img {
   width: 48px;
   object-fit: cover;
-  margin-right: 25px;
 }
 
 .nav-container p {
@@ -78,22 +84,24 @@ body {
   margin-top: 20px;
   max-width: 1240px;
   width: 85%;
-  height: 500px;
   border-radius: 16px;
   background: linear-gradient(
-      180deg,
-      rgba(19, 19, 24, 0.8) 0%,
-      rgba(19, 19, 24, 0) 100%
-    ),
-    url('../../assets/images/Group 13 (1) (1).png');
-  background-repeat: no-repeat;
-  object-fit: cover;
-  background-size: contain;
-  justify-content: center;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  180deg,
+  rgba(19, 19, 24, 0.8) 0%,
+  rgba(19, 19, 24, 0) 100%
+),
+url('../../assets/images/Group 13 (1) (1).png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 40px;
 }
+
+  
+
 
 .explore-section .explore .text-container h1 {
   padding-top: 106px;
@@ -130,6 +138,7 @@ body {
   margin-right: auto;
   background: rgba(255, 255, 255, 0.3);
   padding: 24px;
+
 }
 
 .input-container input,
@@ -164,7 +173,6 @@ body {
 .popular-tours-section {
   max-width: 1240px;
   width: 85%;
-  height: 550px;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -622,9 +630,10 @@ body {
     .testimonial
     .testimonial-bottom
     .testimonial-bottom-div img{
-    width: 80px;
-    height: auto;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
+    object-fit: cover;
   }
   
   .testimonial-section
@@ -674,7 +683,6 @@ body {
   padding-bottom: 30px;
   border-bottom: 1px solid rgba(19, 19, 24, 0.10);
   margin-bottom: 30px;
-  width: 872px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -696,7 +704,6 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
-  width: 769px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -713,3 +720,202 @@ body {
 }
 
 /* footer section end here */
+
+
+
+/* responsive for mobile device start here*/
+@media screen and (max-width: 600px){
+
+    .header-section{
+        max-width: 100%;
+        width: 95%;
+    }
+
+    .icon{
+        display: block;
+    }
+
+    .explore-section{
+        max-width: 100%;
+        width: 95%;
+    }
+
+    .popular-tours-section{
+        max-width: 100%;
+        width: 95%; 
+    }
+
+    .choose-destination-section{
+        max-width: 100%;
+        width: 95%;
+    }
+
+    .why-choose-us-section{
+        max-width: 100%;
+        width: 95%;
+    }
+
+    .newsletter-save-section{
+        max-width: 100%;
+        width: 95%;
+    }
+
+
+    .choose-destination-section .choose-destination-text p{
+        width: 100%;
+    }
+
+    .testimonial-section .testimonial .testimonial-top p{
+        width: 100%;
+    }
+    .why-choose-us-section .why-choose-us .why-choose-us-top p{
+        width: 100%;
+    }
+    .testimonial-section{
+        max-width: 100%;
+        width: 95%;
+    }
+
+    .newsletter-save-section .newsletter-save .newsletter-text input,.newsletter-save-section .newsletter-save .newsletter-text button{
+        width: 100%;
+        
+    }
+
+    .footer-section{
+        max-width: 100%;
+        width: 95%;
+    }
+    .items-container {
+       display: none; 
+      }
+
+      .explore-section .explore .text-container p{
+        width: 100%;
+      }
+
+      .input-container {
+        
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 100%;
+      }
+
+
+      .popular-tours-section .popular-tours .popular-tours-text {
+        grid-column: span 12;
+      }
+
+      .popular-tours-section .popular-tours .popular-tours-img {
+        grid-column: span 12;
+      }
+
+      .choose-destination-section .choose-destination .choose-destination-img .img-1 {
+        grid-column: span 12;
+        height: 300px;
+      }
+
+      .choose-destination-section .choose-destination .choose-destination-img .img-2 {
+        grid-column: span 12;
+        height: 300px;
+      }
+
+      .choose-destination-section .choose-destination .choose-destination-img .img-3 {
+        grid-column: span 12;
+        height: 300px;
+      }
+
+      .choose-destination-section .choose-destination .choose-destination-img .img-4 {
+        grid-column: span 12;
+        height: 300px;
+      }
+
+      .choose-destination-section .choose-destination .choose-destination-img .img-5 {
+        grid-column: span 12;
+        height: 300px;
+      }
+
+
+      .choose-destination-section .choose-destination .choose-destination-img .img-6 {
+        grid-column: span 12;
+        height: 300px;
+      }
+      .choose-destination-section .choose-destination .choose-destination-img .img-7 {
+        grid-column: span 12;
+        height: 300px;
+      }
+
+
+      .why-choose-us-section
+    .why-choose-us
+    .why-choose-us-bottom
+    .why-choose-us-bottom-div-1 {
+    grid-column: span 12;
+    
+  }
+
+  .why-choose-us-section
+  .why-choose-us
+  .why-choose-us-bottom
+  .why-choose-us-bottom-div-2 {
+  grid-column: span 12;
+  
+}
+
+.why-choose-us-section
+.why-choose-us
+.why-choose-us-bottom
+.why-choose-us-bottom-div-3 {
+grid-column: span 12;
+
+}
+
+.newsletter-save-section .newsletter-save {
+    
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .testimonial-section
+    .testimonial
+    .testimonial-bottom
+    .testimonial-bottom-div-1 {
+    grid-column: span 12;
+
+  }
+
+  .testimonial-section
+    .testimonial
+    .testimonial-bottom
+    .testimonial-bottom-div-2 {
+    grid-column: span 12;
+
+  }
+
+  .testimonial-section
+    .testimonial
+    .testimonial-bottom
+    .testimonial-bottom-div-3 {
+    grid-column: span 12;
+
+  }
+
+  .save-box{
+    height: auto;
+    width: auto;
+    padding: 20px 30px;
+    bottom:31px;
+    right:17px;
+  }
+
+  .save-img img{
+    width: 100%;
+  }
+
+
+  .newsletter-save-section .newsletter-save .newsletter-text {
+
+    padding: 30px 50px;
+  }
+  
+
+
+}
+/* responsive for mobile device end here*/
