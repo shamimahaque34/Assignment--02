@@ -17,6 +17,7 @@ body {
 
 .header-section {
   max-width: 1240px;
+  width: 85%;
   margin: 0 auto;
   display: flex;
 }
@@ -71,69 +72,220 @@ body {
 
 /* navbar style end here */
 
-
 /* explore travel start here */
 
-.explore-section{
-
-margin-top: 20px;
-max-width: 1240px;
-height: 500px;
-border-radius: 16px;
-background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100% ),url('../../assets/images/Group 13 (1) (1).png');
-background-repeat: no-repeat;
-object-fit: cover;
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
+.explore-section {
+  margin-top: 20px;
+  max-width: 1240px;
+  width: 85%;
+  height: 500px;
+  border-radius: 16px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url('../../assets/images/Group 13 (1) (1).png');
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: contain;
+  /* display: flex;
+flex-direction: column; */
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.explore-section .explore{
-
+.explore-section .explore {
 }
 
-.explore-section .explore .text-container{
-
+.explore-section .explore .text-container {
 }
 
-.explore-section .explore .text-container h1{
-    color: #FFF;
-    font-family: Mulish;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+.explore-section .explore .text-container h1 {
+  padding-top: 106px;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 
-.explore-section .explore .text-container p{
-    color: #FFF;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
+.explore-section .explore .text-container p {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
 }
 
-.explore-section .explore .input-container{
-
+.explore-section .explore .input-container {
 }
 
-
-
-.input-container .btn{
-    border-radius: 8px;
-    background: #FF5400;
-    display: inline;
+.input-container .btn {
+  border-radius: 8px;
+  background: #ff5400;
+  display: inline-block;
 }
-
-
-
-
 
 /* explore travel end here */
 
+/* popular tours section start here */
+.popular-tours-section {
+  max-width: 1240px;
+  width: 85%;
+  height: 550px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.popular-tours-section .popular-tours {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap:20px;
+}
+
+.popular-tours-section .popular-tours .popular-tours-text {
+  grid-column: span 7;
+}
+
+.popular-tours-section .popular-tours .popular-tours-text h1 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.popular-tours-section .popular-tours .popular-tours-text p {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.popular-tours-section .popular-tours .popular-tours-text .btn {
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  border: none;
+  padding: 10px;
+}
+
+.popular-tours-section .popular-tours .popular-tours-img{
+
+    grid-column: span 5;
+   
+    
+  }
+
+.popular-tours-section .popular-tours .popular-tours-img img{
+  border-radius: 16px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  
+}
+/* popular tours section end here */
+
+/* choose destination section end here */
+.choose-destination-section {
+  max-width: 1240px;
+  width: 85%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.choose-destination-section .choose-destination {
+}
+
+.choose-destination-section .choose-destination-text {
+}
+
+.choose-destination-section .choose-destination-text h1 {
+  padding-top: 20px;
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.choose-destination-section .choose-destination-text p {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.choose-destination-section .choose-destination-img {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+}
+
+.choose-destination-section .choose-destination-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.choose-destination-section .choose-destination .choose-destination-img .img-1 {
+  grid-column: span 6;
+  height: 300px;
+}
+
+.choose-destination-section .choose-destination .choose-destination-img .img-2 {
+  grid-column: span 6;
+  height: 300px;
+}
+
+.choose-destination-section .choose-destination .choose-destination-img .img-3 {
+  grid-column: span 4;
+  height: 286px;
+}
+
+.choose-destination-section .choose-destination .choose-destination-img .img-4 {
+  grid-column: span 5;
+  height: 286px;
+}
+
+.choose-destination-section .choose-destination .choose-destination-img .img-5 {
+  grid-column: span 3;
+  height: 286px;
+}
+.choose-destination-section .choose-destination .choose-destination-img .img-6 {
+  grid-column: span 5;
+  height: 300px;
+}
+
+.choose-destination-section .choose-destination .choose-destination-img .img-7 {
+  grid-column: span 7;
+  height: 300px;
+}
+/* choose destination section end here */
