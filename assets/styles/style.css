@@ -15,8 +15,8 @@ body {
   margin-top: 20px;
 }
 
-.icon{
-    display: none;
+.icon {
+  display: none;
 }
 
 .header-section {
@@ -28,13 +28,11 @@ body {
   justify-content: space-between;
 }
 
-.nav-container{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
-
-
 
 .nav-container img {
   width: 48px;
@@ -86,22 +84,19 @@ body {
   width: 85%;
   border-radius: 16px;
   background: linear-gradient(
-  180deg,
-  rgba(19, 19, 24, 0.8) 0%,
-  rgba(19, 19, 24, 0) 100%
-),
-url('../../assets/images/Group 13 (1) (1).png');
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-padding-bottom: 40px;
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url('../../assets/images/Group 13 (1) (1).png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
 }
-
-  
-
 
 .explore-section .explore .text-container h1 {
   padding-top: 106px;
@@ -138,7 +133,6 @@ padding-bottom: 40px;
   margin-right: auto;
   background: rgba(255, 255, 255, 0.3);
   padding: 24px;
-
 }
 
 .input-container input,
@@ -187,6 +181,22 @@ padding-bottom: 40px;
 .popular-tours-section .popular-tours .popular-tours-text {
   grid-column: span 7;
 }
+
+.popular-tours-section .popular-tours .popular-tours-text .text {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.popular-tours-section .popular-tours .popular-tours-text ul {
+   
+    margin: 20px 0;
+    margin-left: 20px;
+  }
+  
 
 .popular-tours-section .popular-tours .popular-tours-text h1 {
   color: #131318;
@@ -349,111 +359,109 @@ padding-bottom: 40px;
 /* why choose us section start here */
 
 .why-choose-us-section {
-    max-width: 1240px;
-    width: 85%;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .why-choose-us-section .why-choose-us .why-choose-us-top h1 {
-    color: #131318;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    margin-bottom: 15px;
-  }
-  
-  .why-choose-us-section .why-choose-us .why-choose-us-top p {
-    color: rgba(19, 19, 24, 0.7);
-    font-family: Mulish;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    margin-bottom: 20px;
-    width: 643px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .why-choose-us-section .why-choose-us .why-choose-us-bottom {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-gap: 20px;
-  }
-  
-  .why-choose-us-section
-    .why-choose-us
-    .why-choose-us-bottom
-    .why-choose-us-bottom-div-1 {
-    grid-column: span 6;
-    border-radius: 16px;
-    border: 1px solid rgba(251, 181, 99, 0.2);
-    background: rgba(251, 181, 99, 0.05);
-  }
-  
-  .why-choose-us-section
-    .why-choose-us
-    .why-choose-us-bottom
-    .why-choose-us-bottom-div-2 {
-    grid-column: span 6;
-    border-radius: 16px;
-    border: 1px solid rgba(41, 206, 246, 0.2);
-    background: rgba(41, 206, 246, 0.05);
-  }
-  
-  .why-choose-us-section
-    .why-choose-us
-    .why-choose-us-bottom
-    .why-choose-us-bottom-div-3 {
-    grid-column: 3/9;
-    border-radius: 16px;
-    border: 1px solid rgba(233, 68, 68, 0.2);
-    background: rgba(233, 68, 68, 0.05);
-  }
-  
-  .why-choose-us-section
-    .why-choose-us
-    .why-choose-us-bottom
-    .why-choose-us-bottom-div {
-    padding: 20px;
-  }
-  
-  .why-choose-us-section
-    .why-choose-us
-    .why-choose-us-bottom
-    .why-choose-us-bottom-div
-    h3 {
-    color: #131318;
-    font-family: Mulish;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    margin-top: 10px;
-  }
-  
-  .why-choose-us-section
-    .why-choose-us
-    .why-choose-us-bottom
-    .why-choose-us-bottom-div
-    p {
-    color: #5a5a5d;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-  }
-  
-  /* why choose us section end here */
-  
-  
+  max-width: 1240px;
+  width: 85%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.why-choose-us-section .why-choose-us .why-choose-us-top h1 {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+
+.why-choose-us-section .why-choose-us .why-choose-us-top p {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
+  width: 643px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.why-choose-us-section .why-choose-us .why-choose-us-bottom {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+}
+
+.why-choose-us-section
+  .why-choose-us
+  .why-choose-us-bottom
+  .why-choose-us-bottom-div-1 {
+  grid-column: span 6;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+
+.why-choose-us-section
+  .why-choose-us
+  .why-choose-us-bottom
+  .why-choose-us-bottom-div-2 {
+  grid-column: span 6;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+.why-choose-us-section
+  .why-choose-us
+  .why-choose-us-bottom
+  .why-choose-us-bottom-div-3 {
+  grid-column: 3/9;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+
+.why-choose-us-section
+  .why-choose-us
+  .why-choose-us-bottom
+  .why-choose-us-bottom-div {
+  padding: 20px;
+}
+
+.why-choose-us-section
+  .why-choose-us
+  .why-choose-us-bottom
+  .why-choose-us-bottom-div
+  h3 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+.why-choose-us-section
+  .why-choose-us
+  .why-choose-us-bottom
+  .why-choose-us-bottom-div
+  p {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* why choose us section end here */
 
 /* why choose us section end here */
 
@@ -547,123 +555,120 @@ padding-bottom: 40px;
 }
 /* newsletter and save section end here */
 
-
 /* why choose us section start here */
 
 .testimonial-section {
-    max-width: 1240px;
-    width: 85%;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .testimonial-section .testimonial .testimonial-top h1 {
-    color: #131318;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    margin-bottom: 15px;
-  }
-  
-  .testimonial-section .testimonial .testimonial-top p {
-    color: rgba(19, 19, 24, 0.7);
-    font-family: Mulish;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    margin-bottom: 20px;
-    width: 643px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .testimonial-section .testimonial .testimonial-bottom {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-gap: 20px;
-  }
-  
-  .testimonial-section
-    .testimonial
-    .testimonial-bottom
-    .testimonial-bottom-div-1 {
-    grid-column: span 4;
-    border-radius: 16px;
-    border: 1px solid rgba(251, 181, 99, 0.2);
-    background:  rgba(41, 206, 246, 0.05);
-  }
-  
-  .testimonial-section
-    .testimonial
-    .testimonial-bottom
-    .testimonial-bottom-div-2 {
-    grid-column: span 4;
-    border-radius: 16px;
-    border: 1px solid rgba(41, 206, 246, 0.2);
-    background:rgba(233, 68, 68, 0.05);
-  }
-  
-  .testimonial-section
-    .testimonial
-    .testimonial-bottom
-    .testimonial-bottom-div-3 {
-    grid-column: span 4;
-    border-radius: 16px;
-    border: 1px solid rgba(233, 68, 68, 0.2);
-    background:rgba(41, 206, 246, 0.05) ;
-  }
-  
-  .testimonial-section
-    .testimonial
-    .testimonial-bottom
-    .testimonial-bottom-div {
-    padding: 20px;
-  }
+  max-width: 1240px;
+  width: 85%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .testimonial-section
-    .testimonial
-    .testimonial-bottom
-    .testimonial-bottom-div img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  
-  .testimonial-section
-    .testimonial
-    .testimonial-bottom
-    .testimonial-bottom-div
-    h3 {
-    color: #131318;
-    font-family: Mulish;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    margin-top: 10px;
-  }
-  
-  .testimonial-section
-    .testimonial
-    .testimonial-bottom
-    .testimonial-bottom-div
-    p {
-    color: #5a5a5d;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-  }
-  
-  /* why choose us section end here */
+.testimonial-section .testimonial .testimonial-top h1 {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+
+.testimonial-section .testimonial .testimonial-top p {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
+  width: 643px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial-section .testimonial .testimonial-bottom {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+}
+
+.testimonial-section
+  .testimonial
+  .testimonial-bottom
+  .testimonial-bottom-div-1 {
+  grid-column: span 4;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+.testimonial-section
+  .testimonial
+  .testimonial-bottom
+  .testimonial-bottom-div-2 {
+  grid-column: span 4;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+
+.testimonial-section
+  .testimonial
+  .testimonial-bottom
+  .testimonial-bottom-div-3 {
+  grid-column: span 4;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+.testimonial-section .testimonial .testimonial-bottom .testimonial-bottom-div {
+  padding: 20px;
+}
+
+.testimonial-section
+  .testimonial
+  .testimonial-bottom
+  .testimonial-bottom-div
+  img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-section
+  .testimonial
+  .testimonial-bottom
+  .testimonial-bottom-div
+  h3 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+.testimonial-section
+  .testimonial
+  .testimonial-bottom
+  .testimonial-bottom-div
+  p {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* why choose us section end here */
 
 /* footer section start here */
 .footer-section {
@@ -681,10 +686,16 @@ padding-bottom: 40px;
   justify-content: center;
   align-items: center;
   padding-bottom: 30px;
-  border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+  border-bottom: 1px solid rgba(19, 19, 24, 0.1);
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
+  
+}
+
+.footer-icons a{
+
+    color: #131318;
 }
 
 .footer-top {
@@ -721,155 +732,164 @@ padding-bottom: 40px;
 
 /* footer section end here */
 
-
-
 /* responsive for mobile device start here*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
+  .header-section {
+    max-width: 100%;
+    width: 95%;
+  }
 
-    .header-section{
-        max-width: 100%;
-        width: 95%;
-    }
+  .icon {
+    display: block;
+  }
 
-    .icon{
-        display: block;
-    }
+  .explore-section {
+    max-width: 100%;
+    width: 95%;
+  }
 
-    .explore-section{
-        max-width: 100%;
-        width: 95%;
-    }
+  .popular-tours-section {
+    max-width: 100%;
+    width: 95%;
+  }
 
-    .popular-tours-section{
-        max-width: 100%;
-        width: 95%; 
-    }
+  .choose-destination-section {
+    max-width: 100%;
+    width: 95%;
+  }
 
-    .choose-destination-section{
-        max-width: 100%;
-        width: 95%;
-    }
+  .why-choose-us-section {
+    max-width: 100%;
+    width: 95%;
+  }
 
-    .why-choose-us-section{
-        max-width: 100%;
-        width: 95%;
-    }
+  .newsletter-save-section {
+    max-width: 100%;
+    width: 95%;
+  }
 
-    .newsletter-save-section{
-        max-width: 100%;
-        width: 95%;
-    }
+  .choose-destination-section .choose-destination-text p {
+    width: 100%;
+  }
 
+  .testimonial-section .testimonial .testimonial-top p {
+    width: 100%;
+  }
+  .why-choose-us-section .why-choose-us .why-choose-us-top p {
+    width: 100%;
+  }
+  .testimonial-section {
+    max-width: 100%;
+    width: 95%;
+  }
 
-    .choose-destination-section .choose-destination-text p{
-        width: 100%;
-    }
+  .newsletter-save-section .newsletter-save .newsletter-text input,
+  .newsletter-save-section .newsletter-save .newsletter-text button {
+    width: 100%;
+  }
 
-    .testimonial-section .testimonial .testimonial-top p{
-        width: 100%;
-    }
-    .why-choose-us-section .why-choose-us .why-choose-us-top p{
-        width: 100%;
-    }
-    .testimonial-section{
-        max-width: 100%;
-        width: 95%;
-    }
+  .footer-section {
+    max-width: 100%;
+    width: 95%;
+  }
+  .items-container {
+    display: none;
+  }
 
-    .newsletter-save-section .newsletter-save .newsletter-text input,.newsletter-save-section .newsletter-save .newsletter-text button{
-        width: 100%;
-        
-    }
+  .explore-section .explore .text-container p {
+    width: 100%;
+  }
 
-    .footer-section{
-        max-width: 100%;
-        width: 95%;
-    }
-    .items-container {
-       display: none; 
-      }
+  .input-container {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 100%;
+  }
 
-      .explore-section .explore .text-container p{
-        width: 100%;
-      }
+  .popular-tours-section .popular-tours .popular-tours-text {
+    grid-column: span 12;
+  }
 
-      .input-container {
-        
-        grid-template-columns: repeat(1, 1fr);
-        max-width: 100%;
-      }
+  .popular-tours-section .popular-tours .popular-tours-img {
+    grid-column: span 12;
+  }
 
+  .choose-destination-section
+    .choose-destination
+    .choose-destination-img
+    .img-1 {
+    grid-column: span 12;
+    height: 300px;
+  }
 
-      .popular-tours-section .popular-tours .popular-tours-text {
-        grid-column: span 12;
-      }
+  .choose-destination-section
+    .choose-destination
+    .choose-destination-img
+    .img-2 {
+    grid-column: span 12;
+    height: 300px;
+  }
 
-      .popular-tours-section .popular-tours .popular-tours-img {
-        grid-column: span 12;
-      }
+  .choose-destination-section
+    .choose-destination
+    .choose-destination-img
+    .img-3 {
+    grid-column: span 12;
+    height: 300px;
+  }
 
-      .choose-destination-section .choose-destination .choose-destination-img .img-1 {
-        grid-column: span 12;
-        height: 300px;
-      }
+  .choose-destination-section
+    .choose-destination
+    .choose-destination-img
+    .img-4 {
+    grid-column: span 12;
+    height: 300px;
+  }
 
-      .choose-destination-section .choose-destination .choose-destination-img .img-2 {
-        grid-column: span 12;
-        height: 300px;
-      }
+  .choose-destination-section
+    .choose-destination
+    .choose-destination-img
+    .img-5 {
+    grid-column: span 12;
+    height: 300px;
+  }
 
-      .choose-destination-section .choose-destination .choose-destination-img .img-3 {
-        grid-column: span 12;
-        height: 300px;
-      }
+  .choose-destination-section
+    .choose-destination
+    .choose-destination-img
+    .img-6 {
+    grid-column: span 12;
+    height: 300px;
+  }
+  .choose-destination-section
+    .choose-destination
+    .choose-destination-img
+    .img-7 {
+    grid-column: span 12;
+    height: 300px;
+  }
 
-      .choose-destination-section .choose-destination .choose-destination-img .img-4 {
-        grid-column: span 12;
-        height: 300px;
-      }
-
-      .choose-destination-section .choose-destination .choose-destination-img .img-5 {
-        grid-column: span 12;
-        height: 300px;
-      }
-
-
-      .choose-destination-section .choose-destination .choose-destination-img .img-6 {
-        grid-column: span 12;
-        height: 300px;
-      }
-      .choose-destination-section .choose-destination .choose-destination-img .img-7 {
-        grid-column: span 12;
-        height: 300px;
-      }
-
-
-      .why-choose-us-section
+  .why-choose-us-section
     .why-choose-us
     .why-choose-us-bottom
     .why-choose-us-bottom-div-1 {
     grid-column: span 12;
-    
   }
 
   .why-choose-us-section
-  .why-choose-us
-  .why-choose-us-bottom
-  .why-choose-us-bottom-div-2 {
-  grid-column: span 12;
-  
-}
+    .why-choose-us
+    .why-choose-us-bottom
+    .why-choose-us-bottom-div-2 {
+    grid-column: span 12;
+  }
 
-.why-choose-us-section
-.why-choose-us
-.why-choose-us-bottom
-.why-choose-us-bottom-div-3 {
-grid-column: span 12;
+  .why-choose-us-section
+    .why-choose-us
+    .why-choose-us-bottom
+    .why-choose-us-bottom-div-3 {
+    grid-column: span 12;
+  }
 
-}
-
-.newsletter-save-section .newsletter-save {
-    
+  .newsletter-save-section .newsletter-save {
     grid-template-columns: repeat(1, 1fr);
   }
 
@@ -878,7 +898,6 @@ grid-column: span 12;
     .testimonial-bottom
     .testimonial-bottom-div-1 {
     grid-column: span 12;
-
   }
 
   .testimonial-section
@@ -886,7 +905,6 @@ grid-column: span 12;
     .testimonial-bottom
     .testimonial-bottom-div-2 {
     grid-column: span 12;
-
   }
 
   .testimonial-section
@@ -894,28 +912,22 @@ grid-column: span 12;
     .testimonial-bottom
     .testimonial-bottom-div-3 {
     grid-column: span 12;
-
   }
 
-  .save-box{
+  .save-box {
     height: auto;
     width: auto;
     padding: 20px 30px;
-    bottom:31px;
-    right:17px;
+    bottom: 31px;
+    right: 17px;
   }
 
-  .save-img img{
+  .save-img img {
     width: 100%;
   }
 
-
   .newsletter-save-section .newsletter-save .newsletter-text {
-
     padding: 30px 50px;
   }
-  
-
-
 }
 /* responsive for mobile device end here*/
