@@ -95,8 +95,6 @@ body {
   margin-right: auto;
 }
 
-
-
 .explore-section .explore .text-container h1 {
   padding-top: 106px;
   color: #fff;
@@ -234,7 +232,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
 
 .choose-destination-section .choose-destination-text h1 {
   padding-top: 20px;
@@ -460,7 +457,7 @@ body {
 .newsletter-save-section .newsletter-save {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  gap: 24px;
 }
 
 .newsletter-save-section .newsletter-save .newsletter-text {
@@ -520,18 +517,78 @@ body {
 .save-box {
   border-radius: 16px;
   background: #ff5400;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 324px;
   height: 120px;
   transform: rotate(-19.628deg);
   position: absolute;
-  bottom: 0;
-  right: 100px;
+  bottom: 57px;
+  right: 6px;
   text-align: center;
 }
 
-.save-img-box .save-img {
+.save-img-box {
   position: relative;
-  
 }
 /* newsletter and save section end here */
+
+/* footer section start here */
+.footer-section {
+  max-width: 1240px;
+  width: 85%;
+  margin-top: 20px;
+  background: rgba(19, 19, 24, 0.05);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+  margin-bottom: 30px;
+  width: 872px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-top {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-top: 50px;
+}
+
+.footer-section p {
+  color: #5a5a5d;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 769px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.footer-bottom-p {
+  color: #131318;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-bottom: 50px;
+}
+
+/* footer section end here */
