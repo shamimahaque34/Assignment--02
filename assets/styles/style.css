@@ -340,108 +340,112 @@ body {
 
 /* why choose us section start here */
 
-.testimonial-section {
-  max-width: 1240px;
-  width: 85%;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.testimonial-section .testimonial .testimonial-top h1 {
-  color: #131318;
-  text-align: center;
-  font-family: Mulish;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  margin-bottom: 15px;
-}
-
-.testimonial-section .testimonial .testimonial-top p {
-  color: rgba(19, 19, 24, 0.7);
-  font-family: Mulish;
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  margin-bottom: 20px;
-  width: 643px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.testimonial-section .testimonial .testimonial-bottom {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-gap: 20px;
-}
-
-.testimonial-section
-  .testimonial
-  .testimonial-bottom
-  .testimonial-bottom-div-1 {
-  grid-column: span 6;
-  border-radius: 16px;
-  border: 1px solid rgba(251, 181, 99, 0.2);
-  background: rgba(251, 181, 99, 0.05);
-}
-
-.testimonial-section
-  .testimonial
-  .testimonial-bottom
-  .testimonial-bottom-div-2 {
-  grid-column: span 6;
-  border-radius: 16px;
-  border: 1px solid rgba(41, 206, 246, 0.2);
-  background: rgba(41, 206, 246, 0.05);
-}
-
-.testimonial-section
-  .testimonial
-  .testimonial-bottom
-  .testimonial-bottom-div-3 {
-  grid-column: 3/9;
-  border-radius: 16px;
-  border: 1px solid rgba(233, 68, 68, 0.2);
-  background: rgba(233, 68, 68, 0.05);
-}
-
-.testimonial-section
-  .testimonial
-  .testimonial-bottom
-  .testimonial-bottom-div {
-  padding: 20px;
-}
-
-.testimonial-section
-  .testimonial
-  .testimonial-bottom
-  .testimonial-bottom-div
-  h3 {
-  color: #131318;
-  font-family: Mulish;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  margin-top: 10px;
-}
-
-.testimonial-section
-  .testimonial
-  .testimonial-bottom
-  .testimonial-bottom-div
-  p {
-  color: #5a5a5d;
-  font-family: Mulish;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-}
+.why-choose-us-section {
+    max-width: 1240px;
+    width: 85%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .why-choose-us-section .why-choose-us .why-choose-us-top h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 15px;
+  }
+  
+  .why-choose-us-section .why-choose-us .why-choose-us-top p {
+    color: rgba(19, 19, 24, 0.7);
+    font-family: Mulish;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+    width: 643px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .why-choose-us-section .why-choose-us .why-choose-us-bottom {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .why-choose-us-section
+    .why-choose-us
+    .why-choose-us-bottom
+    .why-choose-us-bottom-div-1 {
+    grid-column: span 6;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    background: rgba(251, 181, 99, 0.05);
+  }
+  
+  .why-choose-us-section
+    .why-choose-us
+    .why-choose-us-bottom
+    .why-choose-us-bottom-div-2 {
+    grid-column: span 6;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    background: rgba(41, 206, 246, 0.05);
+  }
+  
+  .why-choose-us-section
+    .why-choose-us
+    .why-choose-us-bottom
+    .why-choose-us-bottom-div-3 {
+    grid-column: 3/9;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    background: rgba(233, 68, 68, 0.05);
+  }
+  
+  .why-choose-us-section
+    .why-choose-us
+    .why-choose-us-bottom
+    .why-choose-us-bottom-div {
+    padding: 20px;
+  }
+  
+  .why-choose-us-section
+    .why-choose-us
+    .why-choose-us-bottom
+    .why-choose-us-bottom-div
+    h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 10px;
+  }
+  
+  .why-choose-us-section
+    .why-choose-us
+    .why-choose-us-bottom
+    .why-choose-us-bottom-div
+    p {
+    color: #5a5a5d;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  
+  /* why choose us section end here */
+  
+  
 
 /* why choose us section end here */
 
